@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ХромосинтеZ</title>
+<meta name="description" content="Выставка о художниках, нарушивших правила: Климт, Ван Гог и Гоген.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Hedvig+Letters+Serif&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body class="theme-dark">
+
+<header class="site-header">
+  <a class="site-header__logo" href="#top">ХромосинтеZ</a>
+  <button class="burger" id="burger" aria-label="Меню" aria-expanded="false">
+    <span></span><span></span><span></span>
+  </button>
+  <nav class="site-nav" id="site-nav">
+    <a href="#top">Главная</a>
+    <a href="#bios">Биографии</a>
+    <a href="#canvases">Холсты</a>
+    <a href="#top" class="js-to-top">В начало</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero container" id="top">
+    <img class="hero__bg" src="assets/img/hero-bg.webp" alt="" aria-hidden="true">
+    <div class="hero__content">
+      <h1 class="hero__title">Правила созданы,<br>чтобы их<br>нарушать</h1>
+      <p class="hero__intro">Конец XIX века. Искусство выходит за рамки академизма.
+Климт бросает вызов традициям, окуная мир в золото и орнаменты.
+Ван Гог деформирует пространство ради чистой эмоции.
+Гоген сбегает от цивилизации на поиски утраченного рая.
+Эта выставка о тех, кто не побоялся смотреть иначе.</p>
+      <a class="btn" href="#bios">смотреть выставку&nbsp;→</a>
+    </div>
+  </section>
+
+  <section class="artists section container" id="bios">
+    <div class="section-head">
+      <h2>Архитекторы <span class="accent-muted">нового зрения</span></h2>
+      <p class="section-note">Они не вписывались в свое время.
+Они были отвергнуты критиками, не поняты обществом, но не отступили. Узнайте истории тех, кто предпочел нищету
+и непонимание компромиссу. Три судьбы, которые стали фундаментом искусства XX века.</p>
+    </div>
+    <div class="artists__grid">
+      <a class="artist-card" href="bio-gogen.html">
+        <img class="artist-card__photo" src="assets/img/portrait-gogen.webp" alt="Портрет Поля Гогена" loading="lazy">
+        <h3 class="artist-card__name">Поль Гоген</h3>
+        <p class="artist-card__desc">Бросил успешную карьеру брокера,
+семью и Париж,
+чтобы отправиться на край света.
+Он искал рай, нетронутый современным миром.
+И нашел его не в географии,
+а в чистом, первобытном цвете Таити.</p>
+      </a>
+      <a class="artist-card" href="bio-vangogh.html">
+        <img class="artist-card__photo" src="assets/img/portrait-vangogh.webp" alt="Портрет Винсента Ван Гога" loading="lazy">
+        <h3 class="artist-card__name">Винсент Ван Гог</h3>
+        <p class="artist-card__desc">Он продал при жизни лишь одну картину.
+Его считали безумцем,
+который видит мир искаженным.
+Но Ван Гог просто писал энергию вещей —
+как трава тянется к солнцу, как ночь дышит
+и как страдание выглядит в желтом цвете.</p>
+      </a>
+      <a class="artist-card" href="bio-klimt.html">
+        <img class="artist-card__photo" src="assets/img/portrait-klimt.webp" alt="Портрет Густава Климта" loading="lazy">
+        <h3 class="artist-card__name">Густав Климт</h3>
+        <p class="artist-card__desc">Он отказался писать портреты правительственных чиновников так, как этого требовал академизм.
+Вместо этого он погружал своих моделей в сияющие золотые панцири орнаментов,
+превращая женщин во властных богинь и вызывая ярость консервативной Вены.</p>
+      </a>
+    </div>
+  </section>
+
+  <section class="canvases-section section container" id="canvases">
+    <div class="section-head">
+      <h2>Девять сюжетов,<br><span class="accent-muted">сломавших систему</span></h2>
+      <p class="section-note">Девять холстов, навсегда изменивших ход искусства.
+Откажитесь от привычного взгляда на реальность.
+Рассмотрите каждый мазок, каждую тень и каждый блик.
+Здесь нет случайных деталей — есть только чистая,
+неконтролируемая эмоция.
+Выберите художника, чей бунт вам ближе.</p>
+    </div>
+    <div class="canvases__grid">
+      <a class="canvas-card" href="canvases-gogen.html">
+        <div class="canvas-card__previews">
+          <img src="assets/img/preview-gogen-1.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-gogen-2.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-gogen-3.webp" alt="" loading="lazy">
+        </div>
+        <h3 class="canvas-card__name">Поль Гоген</h3>
+      </a>
+      <a class="canvas-card" href="canvases-vangogh.html">
+        <div class="canvas-card__previews">
+          <img src="assets/img/preview-vangogh-1.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-vangogh-2.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-vangogh-3.webp" alt="" loading="lazy">
+        </div>
+        <h3 class="canvas-card__name">Винсент Ван Гог</h3>
+      </a>
+      <a class="canvas-card" href="canvases-klimt.html">
+        <div class="canvas-card__previews">
+          <img src="assets/img/preview-klimt-1.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-klimt-2.webp" alt="" loading="lazy">
+          <img src="assets/img/preview-klimt-3.webp" alt="" loading="lazy">
+        </div>
+        <h3 class="canvas-card__name">Густав Климт</h3>
+      </a>
+    </div>
+  </section>
+
+  <section class="outro section container">
+    <h2>вернитесь в серый мир <span class="accent-muted">иначе</span></h2>
+    <p>Выставка окончена, но бунт продолжается.
+Климт, Ван Гог и Гоген доказали: чтобы увидеть настоящее искусство, достаточно перестать смотреть на мир чужими глазами.
+Поделитесь этой выставкой с теми, кто тоже готов нарушать правила.</p>
+    <a class="btn js-to-top" href="#top">вернуться на главную&nbsp;→</a>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <span>ХромосинтеZ</span>
+</footer>
+
+<div class="lightbox" id="lightbox"><img src="" alt=""><span class="lightbox__close">закрыть</span></div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
