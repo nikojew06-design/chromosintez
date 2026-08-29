@@ -398,6 +398,18 @@ img { display: block; max-width: 100%; }
   color: #0a0a0a !important;
 }
 
+/* Van Gogh pages: keep headings white */
+.theme-vangogh.page-bio h1,
+.theme-vangogh.page-bio h2,
+.theme-vangogh.page-bio h3,
+.theme-vangogh.page-bio .bio__name,
+.theme-vangogh.page-bio .bio__section-title,
+.theme-vangogh .canvas-card__name,
+.theme-vangogh .artwork__name,
+.theme-vangogh .canvases-topbar h1 {
+  color: var(--text-light) !important;
+}
+
 /* ---------- страницы холстов ---------- */
 
 .canvases-topbar {
