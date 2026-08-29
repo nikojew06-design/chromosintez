@@ -391,6 +391,13 @@ img { display: block; max-width: 100%; }
   color: #0a0a0a !important;
 }
 
+/* Force black for artwork titles and previews (user request) */
+.canvas-card__name,
+.artwork__name,
+.canvases-topbar h1 {
+  color: #0a0a0a !important;
+}
+
 /* ---------- страницы холстов ---------- */
 
 .canvases-topbar {
