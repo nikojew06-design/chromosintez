@@ -1,0 +1,4 @@
+Trigger GitHub Pages rebuild
+
+This file was added by an automated assistant to trigger a Pages rebuild.
+Timestamp: 2026-08-29T10:58:00Z
