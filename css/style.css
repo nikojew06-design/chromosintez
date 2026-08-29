@@ -382,6 +382,15 @@ img { display: block; max-width: 100%; }
 
 .bio__body p + p { margin-top: 12px; }
 
+/* Force black headings in biography pages (user request) */
+.page-bio h1,
+.page-bio h2,
+.page-bio h3,
+.page-bio .bio__name,
+.page-bio .bio__section-title {
+  color: #0a0a0a !important;
+}
+
 /* ---------- страницы холстов ---------- */
 
 .canvases-topbar {
