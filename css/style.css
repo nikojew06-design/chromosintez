@@ -458,7 +458,7 @@ img { display: block; max-width: 100%; }
 .artwork__name {
   font-style: normal;
   font-weight: 700;
-  color: #ffffff;
+  color: #0a0a0a;
 }
 
 .artwork__lead { margin-bottom: 14px; }
